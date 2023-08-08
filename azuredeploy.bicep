@@ -19,7 +19,7 @@ resource app 'Microsoft.Web/staticSites@2022-09-01' = {
     branch: 'main'
     buildProperties: {
       appLocation: 'app'
-      appArtifactLocation: 'app/build'
+      appArtifactLocation: 'build'
     }
   }
 }
